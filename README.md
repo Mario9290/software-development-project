@@ -20,9 +20,10 @@ For Spotify users, who want new music suggestions . Moodify is a platform that c
 * PostgreSQL
 
 ### Prerequisites
+Docker
 
 ### How to Run
 
-### How to Test
+Run docker-compose up in the terminal in the Moodify directory and then type localhost:3000 to run the website.
 
-### Link to deployed application
+Note: Must be an authenticated Spotify user since the application is in development mode. Only users in the allowlist will be able to login.
